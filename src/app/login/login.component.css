@@ -1,0 +1,65 @@
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #002749;
+  }
+  
+  .example-card {
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .header-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 16px;
+  }
+  
+  .example-header-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: url('login.png');
+    background-size: cover;
+    margin-bottom: 12px;
+  }
+  
+  .form-container {
+    padding: 16px;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .mat-raised-button {
+    width: 100%;
+  }
+  
+  .tab-group {
+    margin-top: 16px;
+  }
+  
+  .mat-tab-label {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .mat-tab-body-content {
+    padding: 16px 0;
+  }
+  

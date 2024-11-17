@@ -1,0 +1,49 @@
+:root {
+    --primary-color: rgb(25, 0, 96);
+    --accent-color: rgb(230, 57, 70);
+    --text-color: #ffffff;
+    --hover-color: rgba(255, 255, 255, 0.2);
+    --font-family: 'Century Gothic', Arial, sans-serif; 
+  }
+  
+  .custom-toolbar {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-family: var(--font-family); 
+    padding: 0 16px;
+  }
+  
+  .custom-toolbar .spacer {
+    flex: 1;
+  }
+  
+  .custom-toolbar button {
+    color: var(--text-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-toolbar button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .mat-menu-content button {
+    color: var(--primary-color);
+  }
+  
+  .mat-menu-item mat-icon {
+    margin-right: 8px;
+    color: var(--accent-color);
+  }
+  
+  .content {
+    padding: 16px;
+    background-color: #000f5a; 
+    min-height: calc(100vh - 64px); 
+  }
+  
+  mat-toolbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

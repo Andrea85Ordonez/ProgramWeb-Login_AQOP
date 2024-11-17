@@ -1,0 +1,71 @@
+<div class="center-content">
+    <mat-card class="example-card" appearance="outlined">
+      <mat-card-header class="header-centered">
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>Bienvenido</mat-card-title>
+        <mat-card-subtitle>Login con Material Design</mat-card-subtitle>
+      </mat-card-header>
+  
+      <mat-card-content>
+        <mat-tab-group class="tab-group">
+          <!-- Tab de Iniciar Sesión -->
+          <mat-tab label="Iniciar sesión">
+            <div class="form-container">
+              <mat-form-field class="example-full-width">
+                <mat-icon matPrefix>email</mat-icon>
+                <mat-label>Correo Electrónico</mat-label>
+                <input matInput type="email" placeholder="Correo Electrónico" [(ngModel)]="log_gmail">
+              </mat-form-field>
+  
+              <mat-form-field class="example-full-width">
+                <mat-icon matPrefix>vpn_key</mat-icon>
+                <mat-label>Contraseña</mat-label>
+                <input matInput [type]="hidePassword ? 'password' : 'text'" placeholder="Contraseña" [(ngModel)]="log_password">
+                <button mat-icon-button matSuffix (click)="verContrase()">
+                  <mat-icon>{{ hidePassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+                </button>
+              </mat-form-field>
+  
+              <div class="button-container">
+                <button mat-raised-button color="primary" (click)="ingresar()">Ingresar</button>
+              </div>
+            </div>
+          </mat-tab>
+  
+          <!-- Tab de Registro -->
+          <mat-tab label="Registro">
+            <div class="form-container">
+              <mat-form-field class="example-full-width">
+                <mat-icon matPrefix>email</mat-icon>
+                <mat-label>Correo Electrónico</mat-label>
+                <input matInput type="email" placeholder="Correo Electrónico" [(ngModel)]="reg_email">
+              </mat-form-field>
+  
+              <mat-form-field class="example-full-width">
+                <mat-icon matPrefix>vpn_key</mat-icon>
+                <mat-label>Contraseña</mat-label>
+                <input matInput [type]="hidePassword ? 'password' : 'text'" placeholder="Contraseña" [(ngModel)]="reg_password">
+                <button mat-icon-button matSuffix (click)="verContrase()">
+                  <mat-icon>{{ hidePassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+                </button>
+              </mat-form-field>
+  
+              <mat-form-field class="example-full-width">
+                <mat-icon matPrefix>vpn_key</mat-icon>
+                <mat-label>Confirmar Contraseña</mat-label>
+                <input matInput [type]="hidePassword ? 'password' : 'text'" placeholder="Confirmar Contraseña" [(ngModel)]="reg_conf_password">
+                <button mat-icon-button matSuffix (click)="verContrase()">
+                  <mat-icon>{{ hidePassword ? 'visibility_off' : 'visibility' }}</mat-icon>
+                </button>
+              </mat-form-field>
+  
+              <div class="button-container">
+                <button mat-raised-button color="primary" (click)="registrar()">Registrar</button>
+              </div>
+            </div>
+          </mat-tab>
+        </mat-tab-group>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  

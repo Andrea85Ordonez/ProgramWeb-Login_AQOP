@@ -1,0 +1,22 @@
+/* Contenedor para centrar el mat-card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #f5f5f5; /* Fondo claro opcional */
+    margin: 0; /* Sin margen extra */
+  }
+  
+  /* Estilo para la tarjeta */
+  .example-card {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  img[mat-card-image] {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    margin: 0 auto;
+  }
+  
