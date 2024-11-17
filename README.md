@@ -133,7 +133,7 @@ Como primera pagina deberá de aparecer el login, que en base a los datos regist
 ![Imagen 21](<Imagen 21.png>)
 https://drive.google.com/file/d/1stpQQqNn8NwJOlwtvZkP6kAtM9WwMOwS/view?usp=sharing
 
-![Imagen 22](<Imagen 22.png>)
+![Imagen 22](image.png)
 https://drive.google.com/file/d/1OrGxsiqDXCW03K4VclCMozEBBD3mo8EI/view?usp=sharing
 
 De inmediato abrirá la siguiente pagina, que contiene un menú de forma horizontal, solo para verificar que si se validaron los datos 
